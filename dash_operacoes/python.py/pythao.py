@@ -7,10 +7,10 @@ def connect_to_database():
     try:
         global conexao
         conexao = mysql.connector.connect(
-            host="iot-laager.c3wepnzq2di2.us-east-1.rds.amazonaws.com",
-            user="jorge",
-            password="devjorge",
-            database="DLAAGERIOT"
+            host="----",
+            user="-----",
+            password="-----",
+            database="------"
             )
             # Verificando a conexão ao banco de dados;
         if conexao.is_connected():
